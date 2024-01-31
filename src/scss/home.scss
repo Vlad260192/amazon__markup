@@ -7,20 +7,6 @@
     background-color: #4949B7;
     position: relative;
 
-    // &::before,&::after{
-    //     content:'';
-    //     position: absolute;
-    // }
-
-    // &::before{
-    //     top: 0;
-    //     right: 0;
-    //     width: 100%;
-    //     height: 100%;
-    //     background: url('@img/main-section/purple-blob.svg') 0 0 no-repeat;
-        
-    // }
-
     &__bg-blob {
         position: absolute;
         z-index: 2;
@@ -180,43 +166,6 @@
     &__image {
         position: relative;
         z-index: 1;
-
-        // &::before{
-        //     content:'';
-        //     position: absolute;
-        //     width: 100%;
-        //     height: 100%;
-
-        //     background: url('@img/main-section/circle-user.png') 0 0 no-repeat;
-        //     z-index: 10;
-        // }
-
-        // &::before,&::after{
-        //     content:'';
-        //     position: absolute;
-        // }
-
-        // &::after{
-        //     top: 50%;
-        //     left: 50%;
-        //     transform: translate(-50%,-50%);
-        //     width: 121%;
-        //     height: 121%;
-        //     border-radius: 50%;
-        //     background-color: #cbcdeb;
-        //     z-index: -2;
-        // }
-
-        // &::before{
-        //     top: 50%;
-        //     left: 50%;
-        //     transform: translate(-50%,-50%);
-        //     width: 113%;
-        //     height: 113%;
-        //     border-radius: 50%;
-        //     background-color: #fe910f;
-        //     z-index: -1;
-        // }
     }
 
     &__image-inner {
@@ -341,15 +290,6 @@
 }
 .about {
     position: relative;
-    // &::before{
-    //     content:'';
-    //     position: absolute;
-    //     top: 0;
-    //     left: 0;
-    //     width: 100%;
-    //     height: 100%;
-    //     background: url('@img/about-section/big-cloud.png') 100%/ contain no-repeat;
-    // }
 
     background: url('@img/about-section/big-cloud.png') 0 -22% no-repeat;
 
@@ -423,7 +363,6 @@
 .spollers__body {
     
     & ul.accepted {
-        // background-color: #fffaf3;
         background: linear-gradient(180deg, #ffffff 0%, #fffaf3 5%, #fffaf3 95%, #ffffff 100%);
     }
 
@@ -532,7 +471,6 @@
         }
 
         & i {
-            // color: #FAFF00;
             font-family: $fontFamily;
             font-size: 57px;
             line-height: math.div(18,57);
@@ -676,7 +614,6 @@ text-transform: uppercase;
         position: relative;
         border-radius: 40px;
         overflow: hidden;
-        // padding: 11px 10px 11px 18px;
 
         &::before{
             content:'';
@@ -684,8 +621,6 @@ text-transform: uppercase;
             width: 100%;
             height: 100%;
             background: url('@img/about-section/card-bg-blur.png') 100%/ cover no-repeat;
-            // filter: blur(5px);
-            // z-index: -1;
         }
     }
 
@@ -773,9 +708,3 @@ text-transform: uppercase;
       --elements: 1;
     }
   }
-  
-//   @media (max-width: 576px) {
-//     .spollers {
-//       --elements: 1;
-//     }
-//   }
